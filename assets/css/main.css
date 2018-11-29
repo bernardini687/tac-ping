@@ -1,7 +1,7 @@
 /*GENERIC*/
 body {
-	background: #202020;
-	color: #e8e8e8;
+	background: #202020; /*black*/
+	color: #d4d4d4; /*text grey*/
 	font-family: 'Inconsolata', monospace;
 	margin: 0 1em;
 }
@@ -9,7 +9,7 @@ h1, h2, p {
 	font-family: 'Delius', cursive;
 }
 h1 {
-	color: #b9e04c;
+	color: #b9e04c; /*green*/
 	font-size: 2.1em;
 	margin-bottom: 1em;
 	text-transform: uppercase;
@@ -24,19 +24,22 @@ p {
 	margin-bottom: 1em;
 }
 strong {
-	color: #b9e04c;
+	color: #fcfcfc; /*white*/
 }
 
 /*LINKS*/
+.page-content a {
+	color: #fcfcfc; /*white*/
+}
 a {
-	color: #b7b7b7;
+	color: #b7b7b7; /*dim grey*/
 	text-decoration: none;
 }
 a:hover, a:active {
-	color: #b9e04c;
+	color: #b9e04c; /*green*/
 }
 .current-page {
-	color: #b9e04c;
+	color: #b9e04c; /*green*/
 	font-weight: bold;
 }
 
@@ -46,7 +49,7 @@ a:hover, a:active {
 	flex-direction: column;
 	height: 100vh;
 	margin: 0 auto;
-	max-width: 500px;
+	max-width: 528px;
 }
 .page-header {
 	margin-bottom: 7.5em;
@@ -60,7 +63,8 @@ a:hover, a:active {
 
 /*LOGO*/
 .logo {
-	border-bottom: 1px solid #6f6f6f;
+	border-bottom: 1px solid #6f6f6f; /*layout grey*/
+	color: #fcfcfc;
 	font-size: 3.2em;
 	margin: 0 0 1rem;
 	padding: 1em 0;
@@ -69,7 +73,7 @@ a:hover, a:active {
 }
 .page-footer .logo {
 	border-bottom: none;
-	border-top: 1px solid #6f6f6f;
+	border-top: 1px solid #6f6f6f; /*layout grey*/
 	margin: 0;
 }
 .tac {
@@ -100,13 +104,13 @@ a:hover, a:active {
 
 /*LOG HEADER*/
 .log-header {
-	border-bottom: 1px solid #6f6f6f;
+	border-bottom: 1px solid #6f6f6f; /*layout grey*/
 	box-sizing: border-box;
 	margin: 0 0 1em 0;
 	padding: 0 1em;
 }
 .log-number {
-	border-right: 1px solid #6f6f6f;
+	border-right: 1px solid #6f6f6f; /*layout grey*/
 	box-sizing: border-box;
 	display: inline-block;
 	font-family: 'Inconsolata', monospace;
