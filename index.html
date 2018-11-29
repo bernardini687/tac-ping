@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>Last log</h1>
+
+<ul class="logs-list">
+	{% for post in site.posts limit:1 %}
+		<li class="log-excerpt">
+			{{ post.content }}
+		</li>
+	{% endfor %}
+</ul>
+

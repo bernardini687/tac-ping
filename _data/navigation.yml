@@ -1,0 +1,11 @@
+- name: Last log
+  link: /
+
+- name: First log
+  link: /2018/11/28/hello-world.html
+
+- name: Archive
+  link: /archive/
+  
+- name: About
+  link: /about/

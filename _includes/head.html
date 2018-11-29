@@ -1,0 +1,27 @@
+<head>
+  {% if page.title %}
+    <title>{{ page.title }} | Tac & Ping</title>
+    <meta property="og:title" content="{{ page.title }} | Tac & Ping">
+  {% else %}
+    <title>Tac & Ping</title>
+    <meta property="og:title" content="Tac & Ping">
+  {% endif %}
+
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+  {% else %}
+    <meta name="description" content="Foo.">
+    <meta property="og:description" content="Foo.">
+  {% endif %}
+
+  <link rel="icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Delius|Inconsolata:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/reset.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>

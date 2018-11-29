@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1>Season 1</h1>
+
+<ul class="logs-list">
+	{% for post in site.posts reversed %}
+		<li class="log-excerpt">
+			{{ post.excerpt }}
+		</li>
+	{% endfor %}
+</ul>

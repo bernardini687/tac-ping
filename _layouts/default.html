@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body>
+		<div class="main-container">
+
+			<header class="page-header">
+				<h1 class="logo"><span class="tac">Tac</span>&<span class="ping">Ping</span></h1>
+				{% include navigation.html %}
+			</header>
+
+			<div class="page-content">
+				{{ content }}
+			</div>
+
+			<footer class="page-footer">
+				<h1 class="logo"><a href="/">Tac&Ping</a></h1>
+			</footer>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+I'm logging my cat's thoughts into text! I know it sounds bizarre, allow me to explain.
+
+My name's Emily and I'm a young developer. I share a flat with my fat cat Tac. For the time being, we are living in San Francisco.
+
+A few months ago I hacked my Ping--a penguin-shaped, Alexa-like device produced by the company I work for. Now my Ping can detect Tac's thoughts as raw data and have it translated to English.
+
+But the really cool part is that Ping can understand Tac and vice versa. So, naturally, I sometimes program specific questions I want Ping to ask Tac while I'm gone--as I discovered, Tac tends to be more chatty when humans are nowhere to be seen.
+
+I was so impressed by the depth of my cat's thoughts that I decided to share them with the wide world. This is tacping.com's reason of being.
+
+For the sake of clarity and aesthetics, I edited the logs of their conversations to look like a chat, I posted ten of the best logs and called it a Season. Tac & Ping Season 1 was born.
+
+Expect a Season 2 soon, those two are really getting along!
