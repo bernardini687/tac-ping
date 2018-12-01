@@ -24,7 +24,7 @@ p {
 	margin-bottom: 1em;
 }
 strong {
-	color: #fcfcfc; /*white*/
+	color: #b9e04c; /*white*/
 }
 
 /*LINKS*/
@@ -64,7 +64,7 @@ a:hover, a:active {
 /*LOGO*/
 .logo {
 	border-bottom: 1px solid #6f6f6f; /*layout grey*/
-	color: #fcfcfc;
+	color: #fcfcfc; /*white*/
 	font-size: 3.2em;
 	margin: 0 0 1rem;
 	padding: 1em 0;
@@ -74,13 +74,14 @@ a:hover, a:active {
 .page-footer .logo {
 	border-bottom: none;
 	border-top: 1px solid #6f6f6f; /*layout grey*/
+	color: #6f6f6f; /*layout grey*/
 	margin: 0;
 }
 .tac {
-	color: #ffde00;
+	color: #ffde00; /*yellow*/
 }
 .ping {
-	color: #5eddeb;
+	color: #5eddeb; /*azure*/
 }
 
 /*NAVIGATION*/
@@ -91,7 +92,7 @@ a:hover, a:active {
 	display: inline-block;
 }
 .navigation-links li > a {
-	padding: .5em
+	padding: .5em;
 }
 
 /*ARCHIVE*/
@@ -121,4 +122,19 @@ a:hover, a:active {
 	box-sizing: border-box;
 	display: inline-block;
 	padding: .5em 0 .5em .5em;
+}
+
+/*LOG CHAT*/
+.chat-box {
+	display: flex;
+}
+.chat-who p {
+	color: #6f6f6f; /*layout grey*/
+	font-family: 'Inconsolata', monospace;
+	box-sizing: border-box;
+  padding-right: .5em;
+  text-align: right;
+}
+.chat-what .sfx {
+	color: #d4d4d4; /*text grey*/
 }
