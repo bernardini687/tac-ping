@@ -125,15 +125,10 @@ a:hover, a:active {
 }
 
 /*LOG CHAT*/
-.chat-box {
-	display: flex;
-}
-.chat-who p {
+.chat-what .status {
 	color: #6f6f6f; /*layout grey*/
 	font-family: 'Inconsolata', monospace;
-	box-sizing: border-box;
-  padding-right: .5em;
-  text-align: right;
+	text-align: center;
 }
 .chat-what .sfx {
 	color: #d4d4d4; /*text grey*/
