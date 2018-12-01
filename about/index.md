@@ -7,7 +7,7 @@ title: About
 I'm logging my **cat's thoughts** into text!<br>
 I know it sounds bizarre, allow me to explain.
 
-My name's Emily and I'm a young developer.<br>
+My name's Emily Copson and I'm a young developer.<br>
 I share a flat with my fat cat <strong><span class="tac">Tac</span>.</strong>
 
 A few months ago I hacked my <strong><span class="ping">Ping</span></strong>&mdash;a penguin-shaped, Alexa-like device, produced by the company I work for.<br>

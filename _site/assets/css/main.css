@@ -20,7 +20,7 @@ h2 {
 }
 p {
 	font-size: 1.3em;
-	line-height: 1.7;
+	line-height: 1.55;
 	margin-bottom: 1em;
 }
 strong {
@@ -122,14 +122,4 @@ a:hover, a:active {
 	box-sizing: border-box;
 	display: inline-block;
 	padding: .5em 0 .5em .5em;
-}
-
-/*LOG CHAT*/
-.chat-what .status {
-	color: #6f6f6f; /*layout grey*/
-	font-family: 'Inconsolata', monospace;
-	text-align: center;
-}
-.chat-what .sfx {
-	color: #d4d4d4; /*text grey*/
 }
