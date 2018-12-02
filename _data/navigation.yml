@@ -1,8 +1,8 @@
-- name: Last log
+- name: Home
   link: /
 
 - name: First log
-  link: /2018/11/26/101.html
+  link: /pilot/
 
 - name: Archive
   link: /archive/

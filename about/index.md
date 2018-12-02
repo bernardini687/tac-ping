@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-# About
+# WTF?
 
 I'm logging my **cat's thoughts**!<br>
 I know how it sounds, allow me to explain.
