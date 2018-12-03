@@ -2,7 +2,7 @@
 body {
 	background: #202020; /*black*/
 	color: #d4d4d4; /*text grey*/
-	font-family: 'Inconsolata', monospace;
+	font-family:'Inconsolata', monospace;
 	margin: 0 1em;
 }
 h1, h2, p {
@@ -23,7 +23,7 @@ p {
 	margin-bottom: 1em;
 }
 strong {
-	color: #b9e04c; /*white*/
+	color: #b9e04c; /*green*/
 }
 
 /*LINKS*/
