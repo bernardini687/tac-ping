@@ -23,6 +23,7 @@ p {
 	margin-bottom: 1em;
 }
 strong {
+	font-weight: normal;
 	color: #b9e04c; /*green*/
 }
 
