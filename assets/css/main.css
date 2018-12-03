@@ -2,7 +2,7 @@
 body {
 	background: #202020; /*black*/
 	color: #d4d4d4; /*text grey*/
-	font-family:'Inconsolata', monospace;
+	font-family: 'Inconsolata', monospace;
 	margin: 0 1em;
 }
 h1, h2, p {
@@ -39,7 +39,7 @@ a:hover, a:active {
 }
 .current-page {
 	color: #b9e04c; /*green*/
-	font-weight: bold;
+	font-weight: 700;
 }
 
 /*LAYOUT*/
@@ -52,7 +52,7 @@ a:hover, a:active {
 	min-width: 325px;
 }
 .page-header {
-	/*background-image: url(/assets/images/tac_ping.png);
+/*  background-image: url(/assets/images/tac_ping.png);
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: 120px;*/
@@ -69,8 +69,9 @@ a:hover, a:active {
 .logo {
 	border-bottom: 1px solid #6f6f6f; /*layout grey*/
 	color: #fcfcfc; /*white*/
+	font-family: 'Barrio', cursive;
 	font-size: 3.2em;
-	margin: 0 0 1rem;
+	margin-bottom: .5rem;
 	padding: 1em 0;
 	text-align: center;
 	text-transform: none;
@@ -104,7 +105,7 @@ a:hover, a:active {
   list-style: none;
 }
 .log-excerpt ~ .log-excerpt {
-  margin-top: -1.84rem;
+  margin-top: -1.8rem;
 }
 
 /*LOG HEADER*/
@@ -119,11 +120,11 @@ a:hover, a:active {
 	box-sizing: border-box;
 	display: inline-block;
 	font-family: 'Inconsolata', monospace;
-	padding: .5em .5em .5em 0;
-	/*text-transform: none;*/
+	padding: .5rem .5rem .5rem 0;
 }
 .log-title {
+	font-family: 'Inconsolata', monospace;
 	box-sizing: border-box;
 	display: inline-block;
-	padding: .5em 0 .5em .5em;
+	padding: .5rem 0 .5rem .5rem;
 }
