@@ -5,12 +5,12 @@ body {
 	font-family: 'Inconsolata', monospace;
 	margin: 0 1em;
 }
-h1, h2, p {
+h1, p {
 	font-family: 'Delius', cursive;
 }
 h1 {
 	color: #b9e04c; /*green*/
-	font-size: 2.1em;
+	font-size: 2em;
 	margin-bottom: 1em;
 	text-transform: uppercase;
 }
@@ -71,7 +71,7 @@ a:hover, a:active {
 	border-bottom: 1px solid #6f6f6f; /*layout grey*/
 	color: #fcfcfc; /*white*/
 	font-family: 'Barrio', cursive;
-	font-size: 3.2em;
+	font-size: 3em;
 	margin-bottom: .5rem;
 	padding: 1em 0;
 	text-align: center;
@@ -120,11 +120,9 @@ a:hover, a:active {
 	border-right: 1px solid #6f6f6f; /*layout grey*/
 	box-sizing: border-box;
 	display: inline-block;
-	font-family: 'Inconsolata', monospace;
 	padding: .5rem .5rem .5rem 0;
 }
 .log-title {
-	font-family: 'Inconsolata', monospace;
 	box-sizing: border-box;
 	display: inline-block;
 	padding: .5rem 0 .5rem .5rem;
