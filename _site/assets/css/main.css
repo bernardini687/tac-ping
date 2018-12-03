@@ -15,12 +15,11 @@ h1 {
 	text-transform: uppercase;
 }
 h2 {
-	font-size: 1.3em;
 	text-transform: uppercase;
 }
 p {
 	font-size: 1.3em;
-	line-height: 1.55;
+	line-height: 1.5;
 	margin-bottom: 1em;
 }
 strong {
@@ -50,8 +49,13 @@ a:hover, a:active {
 	height: 100vh;
 	margin: 0 auto;
 	max-width: 528px;
+	min-width: 325px;
 }
 .page-header {
+	/*background-image: url(/assets/images/tac_ping.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 120px;*/
 	margin-bottom: 7.5em;
 }
 .page-content {
@@ -100,15 +104,15 @@ a:hover, a:active {
   list-style: none;
 }
 .log-excerpt ~ .log-excerpt {
-  margin-top: -1rem;
+  margin-top: -1.84rem;
 }
 
 /*LOG HEADER*/
 .log-header {
 	border-bottom: 1px solid #6f6f6f; /*layout grey*/
 	box-sizing: border-box;
-	margin: 0 0 1em 0;
-	padding: 0 1em;
+	margin-bottom: 1.8rem;
+	padding: 0 .5em;
 }
 .log-number {
 	border-right: 1px solid #6f6f6f; /*layout grey*/
