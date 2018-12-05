@@ -1,131 +1,188 @@
-/*GENERIC*/
+@media screen and (min-width: 1366px) {
+	html p, html h3 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1366px){
+	html p, html h3 {
+		font-size: 18px;
+		line-height: 27px;
+	}
+}
+
+/*  GENERAL  */
+
+html {
+	font-family: 'Inconsolata', monospace;
+	font-size: 16px;
+	line-height: 24px;
+}
+
 body {
 	background: #202020; /*black*/
-	color: #d4d4d4; /*text grey*/
-	font-family: 'Inconsolata', monospace;
-	margin: 0 1em;
+	color: #d4d4d4;			 /*text grey*/
 }
-h1, h2, p {
-	font-family: 'Delius', cursive;
-}
+
 h1 {
-	color: #b9e04c; /*green*/
-	font-size: 2.1em;
-	margin-bottom: 1em;
-	text-transform: uppercase;
+	color: #d4d4d4;			 /*text grey*/
+	font-family: 'Barrio', cursive;
+	font-size: 4.25rem;
+	line-height: 4.5rem;
+	margin: 1.5rem 0 3rem 0;
+	text-align: center;
 }
 h2 {
+	color: #b9e04c; 		 /*green*/
+	font-family: 'Delius Unicase', cursive;
+	font-size: 1.625rem;
+	line-height: 3rem;
+	margin-top: 1.5rem;
 	text-transform: uppercase;
 }
-p {
-	font-size: 1.3em;
-	line-height: 1.5;
-	margin-bottom: 1em;
-}
-strong {
-	font-weight: normal;
-	color: #b9e04c; /*green*/
+
+h3 {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	text-transform: uppercase;
 }
 
-/*LINKS*/
-.page-content a {
-	color: #fcfcfc; /*white*/
+p {
+	font-family: 'Delius', cursive;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin-top: 1.5rem;
 }
+
+strong {
+	color: #b9e04c; 		 /*green*/
+	/*font-weight: normal;*/
+}
+
+/*  LINKS  */
+
 a {
-	color: #b7b7b7; /*dim grey*/
+	color: #fcfcfc;			 /*white*/
+	line-height: 1.5rem;
 	text-decoration: none;
 }
+
 a:hover, a:active {
-	color: #b9e04c; /*green*/
-}
-.current-page {
-	color: #b9e04c; /*green*/
-	font-weight: 700;
+	color: #b9e04c; 		 /*green*/
 }
 
-/*LAYOUT*/
+/*	LAYOUT  */
+
 .main-container {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
-	margin: 0 auto;
-	max-width: 528px;
-	min-width: 325px;
+	margin: auto;
+	max-width: 496px;
+	padding: 0 1rem;
 }
+
 .page-header {
 /*  background-image: url(/assets/images/tac_ping.png);
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: 120px;*/
-	margin-bottom: 7.5em;
+	margin-bottom: 4.5rem;
 }
+
 .page-content {
 	flex-grow: 1;
 }
+
 .page-footer {
-	margin-top: 7.5em;
+	margin-top: 4.5em;
 }
 
-/*LOGO*/
-.logo {
-	border-bottom: 1px solid #6f6f6f; /*layout grey*/
-	color: #fcfcfc; /*white*/
-	font-family: 'Barrio', cursive;
-	font-size: 3.2em;
-	margin-bottom: .5rem;
-	padding: 1em 0;
-	text-align: center;
-	text-transform: none;
-}
 .page-footer .logo {
-	border-bottom: none;
 	border-top: 1px solid #6f6f6f; /*layout grey*/
-	color: #6f6f6f; /*layout grey*/
+	margin-top: 0;
+}
+
+.page-footer .logo a {
+	color: #6f6f6f;			 /*layout grey*/
+}
+
+.page-footer .logo a:hover,
+.page-foorer .logo a:active {
+	color: #b9e04c; 		 /*green*/
+}
+
+/*  LOGO  */
+
+.tac {
+	color: #ffde00; 		 /*yellow*/
+}
+
+.ping {
+	color: #5eddeb; 		 /*azure*/
+}
+
+/*  NAVIGATION  */
+
+.main-navigation {
+	border-top: 1px solid #6f6f6f; /*layout grey*/
+	text-align: center;
+}
+
+.main-navigation a {
+	color: #6f6f6f;			 /*layout grey*/
+}
+
+.main-navigation a:hover,
+.main-navigation a:active {
+	color: #b9e04c; 		 /*green*/
+}
+
+.page-header-navigation > li {
+	display: inline-block;
+	margin: 0 .5rem;
+}
+
+#current-page {
+	color: #b9e04c;			 /*green*/
+	font-weight: 700;
+}
+
+/*  BLOCKQUOTE  */
+
+blockquote {
+	margin-bottom: 4.5rem;
+}
+
+blockquote p {
 	margin: 0;
 }
-.tac {
-	color: #ffde00; /*yellow*/
-}
-.ping {
-	color: #5eddeb; /*azure*/
+
+blockquote p a {
+	color: #b9e04c; 		 /*green*/
 }
 
-/*NAVIGATION*/
-.navigation-links {
-	text-align: center;
-}
-.navigation-links > li {
-	display: inline-block;
-}
-.navigation-links li > a {
-	padding: .5em;
+blockquote a:hover,
+blockquote a:active {
+	color: #6f6f6f;			 /*layout grey*/
 }
 
-/*ARCHIVE*/
+/*  LOGS  */
+
 .logs-list {
   list-style: none;
 }
-.log-excerpt ~ .log-excerpt {
-  margin-top: -1.8rem;
-}
 
-/*LOG HEADER*/
-.log-header {
-	border-bottom: 1px solid #6f6f6f; /*layout grey*/
-	box-sizing: border-box;
-	margin-bottom: 1.8rem;
-	padding: 0 .5em;
-}
+/*  LOG HEADER  */
+
 .log-number {
 	border-right: 1px solid #6f6f6f; /*layout grey*/
-	box-sizing: border-box;
 	display: inline-block;
-	font-family: 'Inconsolata', monospace;
-	padding: .5rem .5rem .5rem 0;
+	padding-right: .5rem;
 }
+
 .log-title {
-	font-family: 'Inconsolata', monospace;
-	box-sizing: border-box;
 	display: inline-block;
-	padding: .5rem 0 .5rem .5rem;
+	padding-left: .5rem;
 }

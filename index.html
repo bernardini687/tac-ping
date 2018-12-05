@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
-<h1>Last entry</h1>
+<blockquote>
+	<p>
+		<strong>First time here?</strong><br>
+		For once, visit the <strong><a href="/about/">About</a></strong> page.
+	</p>
+</blockquote>
+
+<h2>Last entry</h2>
 
 {% for post in site.posts limit:1 %}
 	{{ post.content }}

@@ -11,13 +11,13 @@
     <meta property="og:description" content="Foo.">
   
 
-  <link rel="icon" href="/favicon.png">
-  <link rel="apple-touch-icon" href="favicon.png">
   <meta charset="utf-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="https://fonts.googleapis.com/css?family=Barrio|Delius|Inconsolata:400,700" rel="stylesheet">
+  <link rel="icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Barrio|Delius|Delius+Unicase:700|Inconsolata:400,700" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/reset.css">
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
@@ -28,29 +28,30 @@
 			<header class="page-header">
 				<h1 class="logo"><span class="tac">Tac</span>&<span class="ping">Ping</span></h1>
 				<nav class="main-navigation">
-	<ul class="navigation-links">
+	<ul class="page-header-navigation">
 		
-		<li>
-			<a href="/"
-				
-					class="current-page"
-				>Home</a>
-		</li>
+			<li>
+					<a href="/about/"
+						>
+						About
+					</a>
+			</li>
 		
-		<li>
-			<a href="/pilot/"
-				>First log</a>
-		</li>
+			<li>
+					<a href="/"
+						
+							id="current-page"
+						>
+						Home
+					</a>
+			</li>
 		
-		<li>
-			<a href="/archive/"
-				>Archive</a>
-		</li>
-		
-		<li>
-			<a href="/about/"
-				>About</a>
-		</li>
+			<li>
+					<a href="/logs/"
+						>
+						Logs
+					</a>
+			</li>
 		
 	</ul>
 </nav>
@@ -58,12 +59,19 @@
 			</header>
 
 			<div class="page-content">
-				<h1>Last entry</h1>
+				<blockquote>
+	<p>
+		<strong>First time here?</strong><br>
+		For once, visit the <strong><a href="/about/">About</a></strong> page.
+	</p>
+</blockquote>
+
+<h2>Last entry</h2>
 
 
 	<header class="log-header">
-	<a href="/2018/11/29/102.html">
-		<h2 class="log-number">Log 102</h2><h2 class="log-title">Stuck in the Wardrobe</h2>
+	<a href="/2018/12/03/103.html">
+		<h3 class="log-number">103</h3><h3 class="log-title">To Be Announced</h3>
 	</a>
 </header>
 
@@ -76,10 +84,11 @@
 </p>
 
 
+
 			</div>
 
 			<footer class="page-footer">
-				<h1 class="logo">Tac&Ping</h1>
+				<h1 class="logo"><a href="/">Tac&Ping</a></h1>
 			</footer>
 
 		</div>
