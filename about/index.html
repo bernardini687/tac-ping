@@ -1,0 +1,52 @@
+---
+layout: default
+title: About
+---
+<blockquote>
+	<p>
+		<strong>Your curiosity will be rewarded.</strong><br>
+		Maybe elsewhere.
+	</p>
+</blockquote>
+
+<h2>Hot stuff ahead</h2>
+
+<p>
+	I'm logging my <strong>cat's thoughts!</strong><br>
+	I know how it sounds, allow me to explain.
+</p>
+
+<p>
+	My name's Emily Copson and I'm a young developer.<br>
+	I share a flat with my fat cat <strong><span class="tac">Tac.</span></strong>
+</p>
+
+<p>
+	Put simply, a month ago I hacked my <strong><span class="ping">Ping</span></strong>&mdash;a penguin-shaped, Alexa-like device, produced by the company I work for. Now it can <strong>detect</strong> Tac's thoughts as raw data and translate it to English.
+</p>
+
+<p>But the really cool part is that Ping can immediately <strong>understand</strong> Tac and vice versa.</p>
+
+<p>
+	So, of course, I program specific questions I want Ping to ask Tac while I'm gone&mdash;for <strong>unknown reasons,</strong> Tac's not very chatty with humans around; plus, it can take a couple of days for the translation to happen.
+</p>
+
+<p>
+	Anyway, I was so impressed by the depth of my <strong>cat's mind</strong> that I decided to share it with the wide world.
+</p>
+
+<p>
+	For the sake of clarity and aesthetics, I edited the logs of their conversations to resemble <strong>chats,</strong> posted ten of the best results, and called it a season.
+</p>
+
+<p><strong>Tac & Ping Season 1</strong> was live!</p>
+
+<p>Expect a <strong>Season 2</strong> soon, those two are really getting along.</p>
+
+<p><strong>May their minds blow up yours:</strong></p>
+
+{% for post in site.posts %}
+	{% if post.log == "101" %}
+		{{ post.excerpt }}
+	{% endif %}
+{% endfor %}

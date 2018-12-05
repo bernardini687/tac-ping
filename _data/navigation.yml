@@ -1,11 +1,9 @@
+- name: About
+  link: /about/
+
 - name: Home
   link: /
 
-- name: First log
-  link: /pilot/
-
-- name: Archive
-  link: /archive/
+- name: Logs
+  link: /logs/
   
-- name: About
-  link: /about/

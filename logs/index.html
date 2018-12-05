@@ -1,0 +1,20 @@
+---
+layout: default
+title: Logs
+---
+<blockquote>
+	<p>
+		<strong>An exciting list of all the logs.</strong><br>
+		Catch up with the story, or don’t.
+	</p>
+</blockquote>
+
+<h2>Season 1</h2>
+
+<ul class="logs-list">
+	{% for post in site.posts reversed %}
+		<li class="log-excerpt">
+			{{ post.excerpt }}
+		</li>
+	{% endfor %}
+</ul>
