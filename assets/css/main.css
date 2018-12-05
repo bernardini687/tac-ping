@@ -49,6 +49,7 @@ h3 {
 }
 
 p {
+	color: #ffde00; 		 /*yellow*/
 	font-family: 'Delius', cursive;
 	font-size: 1rem;
 	line-height: 1.5rem;
@@ -113,7 +114,11 @@ a:hover, a:active {
 	color: #b9e04c; 		 /*green*/
 }
 
-/*  LOGO  */
+/*  TEXT  */
+
+.default {
+	color: #d4d4d4;			 /*text grey*/
+}
 
 .tac {
 	color: #ffde00; 		 /*yellow*/
