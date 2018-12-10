@@ -86,6 +86,10 @@ a:hover, a:active {
 	margin-top: 4.5em;
 }
 
+.page-footer .main-navigation {
+	border-top: none;
+}
+
 .page-footer .logo {
 	border-top: 1px solid #6f6f6f; /*layout grey*/
 	margin-top: 0;
