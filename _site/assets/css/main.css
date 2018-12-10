@@ -9,6 +9,7 @@ html {
 body {
 	background: #202020; /*black*/
 	color: #d4d4d4;			 /*text grey*/
+	display: block;
 }
 
 h1 {
@@ -64,7 +65,7 @@ a:hover, a:active {
 .main-container {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	min-height: 100vh;
 	margin: auto;
 	max-width: 496px;
 	padding: 0 1rem;
