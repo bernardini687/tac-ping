@@ -65,7 +65,7 @@ I’m not human but I try to be a good one.
 
 Why?
 Aren’t you happy to be a-
-Hmm... What exactly are you supposed to be?
+Hmm... what exactly are you supposed to be?
 
 I’m Ping, your personal penguin assistant.
 My brain’s as powerful as my cuteness.
@@ -117,7 +117,7 @@ Of course there's a way.
 I won't tell you, though.
 ...
 Just kidding!
-You could say something like, "Ping, take a nap!" And you won't hear anything more from me.
+You could say something like "Ping, take a nap!" And you won't hear anything more from me.
 When you need me again, just say-
 
 Ping, take a nap!
