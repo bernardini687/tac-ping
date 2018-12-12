@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: tacping.com
+Token: 117e8f578bdb90abfc2d6e09412a5e3a913f3a877058564a68df4bbe32d0718a
