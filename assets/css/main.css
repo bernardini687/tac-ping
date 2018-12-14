@@ -1,8 +1,9 @@
 /*  GENERAL  */
 
 html {
-	font-family: 'Inconsolata', monospace;
-	font-size: 16px;
+	font-family: 'Gaegu', cursive;
+	font-size: 24px;
+	letter-spacing: 0;
 	line-height: 24px;
 }
 
@@ -13,41 +14,50 @@ body {
 }
 
 h1 {
-	color: #d4d4d4;			 /*text grey*/
 	font-family: 'Barrio', cursive;
-	font-size: 4.25rem;
-	line-height: 4.5rem;
-	margin: 1.5rem 0 3rem 0;
+	font-size: 3rem;
+	line-height: 1.15em;
+	margin: 1rem 0 3rem 0;
 	text-align: center;
 }
+
 h2 {
 	color: #fff; 		     /*white*/
-	font-family: 'Delius Unicase', cursive;
-	font-size: 1.625rem;
-	line-height: 3rem;
-	margin-top: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: -.025em;
+	line-height: 1.15em;
+	margin-bottom: 1rem;
 	text-transform: uppercase;
 }
 
 h3 {
-	font-size: 1rem;
-	line-height: 1.5rem;
-	text-transform: uppercase;
+	line-height: 1.15em;
+	letter-spacing: -.025em;
 }
 
 p {
 	color: #ffde00; 		 /*yellow*/
-	font-family: 'Delius', cursive;
-	font-size: 1rem;
-	line-height: 1.5rem;
-	margin-top: 1.5rem;
+	line-height: 1.15em;
+	letter-spacing: -.025em;
+	margin-top: 1rem;
+}
+
+li {
+	line-height: 1.15em;
+	letter-spacing: -.025em;
+}
+
+b, strong {
+	color: #fff; 		     /*white*/
 }
 
 /*  LINKS  */
 
 a {
-	color: #fff;			   /*white*/
-	line-height: 1.5rem;
+	color: #b9e04c;      /*green*/
+	line-height: 1.15em;
+	letter-spacing: -.025em;
 	text-decoration: none;
 }
 
@@ -63,7 +73,7 @@ a:hover, a:active {
 	min-height: 100vh;
 	margin: auto;
 	max-width: 496px;
-	padding: 0 1rem;
+	padding: 0 .5rem;
 }
 
 .page-header {
@@ -84,11 +94,18 @@ a:hover, a:active {
 
 .page-footer .main-navigation {
 	border-top: none;
+	border-bottom: 1px solid #6f6f6f; /*layout grey*/
+}
+
+.page-footer .copyright {
+	font-size: .8em;
+	line-height: 1.25;
+	font-family: 'Barrio', cursive;
+	vertical-align: bottom;
 }
 
 .page-footer .logo {
-	border-top: 1px solid #6f6f6f; /*layout grey*/
-	margin-top: 0;
+	margin: 3rem 0 1rem 0;
 }
 
 .page-footer .logo a {
@@ -97,7 +114,7 @@ a:hover, a:active {
 
 .page-footer .logo a:hover,
 .page-foorer .logo a:active {
-	color: #fff; 		     /*white*/
+	color: #b9e04c;      /*green*/
 }
 
 /*  TEXT  */
@@ -121,22 +138,24 @@ a:hover, a:active {
 	text-align: center;
 }
 
-.main-navigation a {
+.main-navigation a,
+.main-navigation li {
+	font-size: .8rem;
 	color: #6f6f6f;			 /*layout grey*/
 }
 
 .main-navigation a:hover,
 .main-navigation a:active {
-	color: #fff; 		     /*white*/
+	color: #b9e04c;      /*green*/
 }
 
 .page-header-navigation > li {
 	display: inline-block;
-	margin: 0 .5rem;
+	margin: 0 .5em;
 }
 
 #current-page {
-	color: #fff;			   /*white*/
+	color: #b9e04c;      /*green*/
 	font-weight: 700;
 }
 
@@ -150,14 +169,10 @@ blockquote p {
 	margin: 0;
 }
 
-blockquote span, .wish {
-	font-family: 'Delius Unicase', cursive;
-	text-transform: uppercase;
-}
-
-blockquote a {
-	font-family: 'Inconsolata', monospace;
+blockquote span, .about-wish {
+	color: #fff;			   /*white*/
 	font-weight: 700;
+	text-transform: uppercase;
 }
 
 /*  LOGS  */
@@ -170,27 +185,22 @@ blockquote a {
 
 .log-number {
 	color: #6f6f6f;      /*layout grey*/
-	border-right: 1px solid #6f6f6f; /*layout grey*/
 	display: inline-block;
-	padding-right: .5rem;
 }
 
 .log-title {
 	display: inline-block;
 	font-weight: 700;
-	padding-left: .5rem;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
 	html p, html h3 {
-		font-size: 18px;
-		line-height: 27px;
+		font-size: 26px;
 	}
 }
 
 @media screen and (min-width: 1366px) {
 	html p, html h3 {
-		font-size: 20px;
-		line-height: 30px;
+		font-size: 28px;
 	}
 }
