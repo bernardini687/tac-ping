@@ -92,9 +92,8 @@ a:hover, a:active {
 	margin-top: 4.5em;
 }
 
-.page-footer .main-navigation {
-	border-top: none;
-	border-bottom: 1px solid #6f6f6f; /*layout grey*/
+.page-footer-copyright > li {
+	display: inline-block;
 }
 
 .page-footer .copyright {
@@ -104,17 +103,8 @@ a:hover, a:active {
 	vertical-align: bottom;
 }
 
-.page-footer .logo {
-	margin: 3rem 0 1rem 0;
-}
-
-.page-footer .logo a {
-	color: #6f6f6f;			 /*layout grey*/
-}
-
-.page-footer .logo a:hover,
-.page-foorer .logo a:active {
-	color: #b9e04c;      /*green*/
+.page-footer-copyright {
+	margin-bottom: 3em;
 }
 
 /*  TEXT  */
